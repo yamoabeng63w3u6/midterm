@@ -1,32 +1,112 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A. Because its used to organized and store data in a computer so that it can be accessed and modified
+efficiently.
+
+
 What are the various operations that can be performed on different Data Structures?
+A.Sorting,finding,inserting,deleting,merging,minimum/maximum
+
+
 List out the areas in which data structures are applied extensively?
+A.Compilier design,operating system,database management,statistical analysis package,graphics,AI,Simulation.
+
+
 what is an Array?
+A.An arrangement of objects,pictures,or numbers in columns and rows.
+
+
 what is the difference between the Array and ArrayList?
+A.Array is a fixed size data structure while Arraylist is not.
+
 what is LinkedList?
+A,Linked List are linear data structures where the elements are not stored in contiguous locations and every element is a separate object with a data part and address part.
+
 How is an Array different from Linked List?
+A..In array, each element is independent and can be accessed using it's index value. In case of a linked list, each node/element points to the next, previous, or maybe both nodes.
+
 what is queue?
+A..Queue represents a data structure designed to have elements inserted at the end
+
 what is stack?
+A.Stack contains method specific values that are short-lived and references to other objects in the heap that are getting referred from the method.
+It can be push or pop.
+
+
 what is FIFO and LIFO?
+A. First In First Out, Last In First Out.
+
+
 what is the order of complexity?
+A..The smaller the order of complexity of the program's underlying algorithm, the faster it will run and the better it will scale as the input gets larger.
+
 what is the best case to search an element from an array?
+A..O(n)
+
+
 what is the worst case to search an element from an array?
+A. O(log n)
+
+
 what is tree in data structure?
+A.A tree in data structure is a collection of entities called nodes which are connected by edges.Each node contains a value or data.
+
+
 what is graph in data structure?
+A.A set of items connected by edges,each item is called a vetex or node.
+
+
 what is the difference between the HashTable and HashMap?
+A. Hashtable is synchronized, whereas HashMap is not.
+
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A.· RDBMS –( Array),Network data model(graph),Hierarchical data model(trees)
+
+
 How HashMap works in java?
+A..HashMap allows one null key and any number of null values.
+
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A.ArrayIndexOutOfBoundsException is thrown to indicate that we are trying to access array element with an illegal index.
+
+
 What are the different ways of copying an array into another array?
+A.1. Manually
+  2. Arrays.copyOf()
+  3. System.arraycopy()
+  4. Object.clone()
+
 What is difference between an array and a linked list?
+A.An array is a set of similar data objects stored in sequential memory locations under a common heading or a variable name. While a linked list is a data structure which contains a sequence of the elements where each element is linked to its next element.
+
+
 What is DFS and BFS?
+A.The breadth first search (BFS) and the depth first search (DFS) are the two algorithms used for traversing and searching a node in a graph. They can also be used to find out whether a node is reachable from a given node or not.
+
+
 What is Recursion?
+A..Recursion is a basic programming technique you can use in Java, in which a method calls itself to solve some problem.
+
 What are linear and non linear data Structures?
+A..In the linear data structure, the data is organized in a linear order in which elements are linked one after the other. Non-linear data structure involves multiple levels.
+
 What is Big-(O)-notation?
+A..Big O-Notation specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used by an algorithm.
+
 Outlined different kind of sorting algorithm with time complexity?
+A. Selection Sort Ω(n^2)
+  Bubble Sort Ω(n)
+  Insertion Sort Ω(n)
+  Heap Sort Ω(n log(n))
+  Quick Sort Ω(n log(n))
+  Merge Sort Ω(n log(n))
+  Bucket Sort Ω(n+k)
+  Radix Sort Ω(nk)
+
+
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.

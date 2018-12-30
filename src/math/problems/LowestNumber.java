@@ -6,8 +6,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LowestNumber {
+	public static int findLowestNum(int[] array) {
+		int min = array[0];
+		for (int i = 1; i < array.length; i++) {
+			if (array[i] < min) min = array[i];
+		}
 
-	public static void main(String[] args) {
+		System.out.println(min);
+		return min;
+	}
+
+	public static void main(String[] args){
 		/*
 		 * Write java solution to find the lowest number from this array.
 		 * Use one of the databases from mysql or mongodb to store and to retrieve.
