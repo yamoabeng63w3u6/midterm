@@ -18,8 +18,8 @@ public class Trainee implements Comparable<Trainee> {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setFirstName(String amoabeng) {
+        this.firstName = ;
     }
 
     public String getLastName() {

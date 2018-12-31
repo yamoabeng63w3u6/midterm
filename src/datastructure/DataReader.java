@@ -58,15 +58,18 @@ public class DataReader {
 		System.out.println("\n\nStack LIFO:");
 
 
-	for (int k = 0; k < storeStack.size(); k++) {
+		for (int k = 0; k < storeStack.size(); k++) {
 			System.out.print(storeStack.pop() + " ");
 		}
 		while (!storeStack.isEmpty()) {
-			System.out.print(storeStack.pop() + " ");
+			{
+				System.out.print(storeStack.pop() + " ");
+			}
 		}
-	}
 
+	}
 }
+
 
 
 

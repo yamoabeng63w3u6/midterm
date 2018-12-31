@@ -27,7 +27,7 @@ public class PrimeNumber {
 		int count;
 		count = 0;
 
-		for (int i = 2; i <,=100000;
+		for (int i = 2; i <=100000;
 
 
 		if (isPrime(i)) {
